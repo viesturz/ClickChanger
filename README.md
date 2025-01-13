@@ -1,15 +1,15 @@
 # What is this?
 
-A minimalistic 3d printer toolhead design, build from ground up for tool changing.
+A minimalistic 3d printer toolhead design, build from ground up for tool changing and primarily the Voron Family of printers.
 Inspired by [Tapchanger](https://github.com/viesturz/tapchanger) and [Stealthchanger](https://github.com/DraftShift/StealthChanger). But not getting into  [PitStop](https://mihaidesigns.com/pitstop3/) territory yet.
 
 ## How is this different?
 
 ClickChanger is a yet another vertically attached design, but building on previous experiences, but here are some design directions it focuses on:
+* A hotend based nozzle probe, like Revo PZ, not requiring smooth vertical movement
 * Rigid connection between the Y rail and hotend's heatsink, minimizing thermal expansion differences between toolheads.
-* A hotend based nozzle probe, like Revo PZ, not requiring precise vertical movement
 * Shared part cooling fan integrated in the shuttle
-* Lightweight toolhead, while still being direct drive, 200-250g depending on the hotend/extruder choice
+* A "naked" toolhead, allowing for better cooling and overall less weight.
 
 And keeping the features from other designs:
 
