@@ -29,7 +29,8 @@ See [TapChanger](https://github.com/viesturz/tapchanger) for my docking/wiring s
 * 1x 4x6x6mm bushing
 * 1x 3x7mm steel rod
 * 1x 3x6x2.5mm bearing (3x6x3 works too)
-* 4010 centrifugal fan
+* 1x 4010 centrifugal fan
+* 2x 6x3mm magnets (optional)
 
 **Toolhead** (each)
 
@@ -39,6 +40,7 @@ See [TapChanger](https://github.com/viesturz/tapchanger) for my docking/wiring s
 * a micro limit switch, Omron D2F or similar
 * 30x30x10 axial fan
 * A supported extruder, toolhead, toolboard
+* 2x 6x3mm magnets (optional)
 
 # Revision log
 
