@@ -65,8 +65,9 @@ Some of next directions this is going, in no particular order
 * 2x 4x6x6 mm bushing
 * a Omron D2F limit switch or compatible
 * 30x30x10 or 30x30x7 axial fan for hotend cooling
+* 1x m2x6 socket head screw (socket head is important)
 * 2x 6x3mm magnet
-* 2x [pogo pin](https://www.aliexpress.com/w/wholesale-pogo-pin-3mm.html) - 3 or 3.5 mm long 
+* 2x [pogo pin](https://www.aliexpress.com/w/wholesale-pogo-pin-3mm.html) 3.5 mm long
 * Some heastset inserts and m3 screws for toolhead mounting
 
 **Dock**
@@ -74,6 +75,20 @@ Some of next directions this is going, in no particular order
 Depends on the dock mounting method, coming up.
 
 # Revision log
+
+## 0.9 - Small improvements
+
+Added:
+
+* Rapido extruder base
+* Nitehawk toolbard cage
+
+Small refinements across the board:
+
+* HGX Lite gears 2 refinements
+* Fan shroud refinements
+* Better fit for some holes
+
 
 ## 0.8 - It prints!
 
