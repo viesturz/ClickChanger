@@ -8,9 +8,9 @@ Inspired by [Tapchanger](https://github.com/viesturz/tapchanger) and [Stealthcha
 ## How is this different?
 
 ClickChanger is a yet another vertically attached design, but building on previous experiences, but here are some design directions it focuses on:
-* A hotend based nozzle probe, like Revo PZ, not requiring smooth vertical movement
-* Rigid connection between the Y rail and hotend's heatsink, minimizing thermal expansion differences between toolheads.
-* A Shared part cooling fan integrated in the shuttle, connected via Pogo pins.
+* A hotend based nozzle probe, like Revo PZ, not requiring the smooth vertical movement by the docking mechanism
+* Rigid connection between the Y rail and hotend's heatsink, minimizing thermal expansion differences between toolheads
+* A Shared part cooling fan integrated in the shuttle, connected via Pogo pins
 * A "naked" toolhead, allowing for better cooling and overall less weight.
 
 And keeping the features from other designs:
@@ -35,6 +35,7 @@ Some of next directions this is going, in no particular order
 
 * Revo Voron or Revo PZ
 * Dragon or Dragon High flow
+* Rapido
 
 # Supported extruders
 
@@ -58,6 +59,10 @@ Some of next directions this is going, in no particular order
 * 1x 4010 centrifugal fan; 15000 rpm recommended since you are running a single fan.
 * 2x 6x3mm magnet
 
+**Shuttle CPAP**
+
+* Coming up
+
 **Toolhead**
 
 * A supported extruder, toolhead, toolboard
@@ -65,14 +70,18 @@ Some of next directions this is going, in no particular order
 * 2x 4x6x6 mm bushing
 * a Omron D2F limit switch or compatible
 * 30x30x10 or 30x30x7 axial fan for hotend cooling
-* 1x m2x6 socket head screw (socket head is important)
+* 1x m2x6 **socket head** screw
 * 2x 6x3mm magnet
-* 2x [pogo pin](https://www.aliexpress.com/w/wholesale-pogo-pin-3mm.html) 3.5 mm long
+* 2x 3.5mm [pogo pin](https://www.aliexpress.com/w/wholesale-pogo-pin-3mm.html), not needed for CPAP
 * Some heastset inserts and m3 screws for toolhead mounting
 
 **Dock**
 
 Depends on the dock mounting method, coming up.
+
+# Assembly instructions
+
+Coming up
 
 # Revision log
 
