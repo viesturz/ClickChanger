@@ -33,7 +33,7 @@ Some of next directions this is going, in no particular order
 
 # Supported hotends
 
-* Revo Voron or Revo PZ
+* Revo Voron
 * Dragon or Dragon High flow
 * Rapido
 
@@ -46,7 +46,8 @@ Some of next directions this is going, in no particular order
 
 # Supported toolboards
 * Bitgtreetach EBB36 and compatibles
-* Mellow Fly SHT36 V2 and V2 Pro
+* Mellow Fly SHT36 V2 and Pro
+* LDO Nitehawk (untested)
 
 # BOM
 
