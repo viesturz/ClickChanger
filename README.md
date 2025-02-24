@@ -69,7 +69,7 @@ Some of next directions this is going, in no particular order
 * A supported extruder, toolhead, toolboard
 * 1x 4mm x12mm round end steel pins
 * 2x 4x6x6 mm bushing
-* a Omron D2F limit switch or compatible
+* a Omron D2F-F limit switch or compatible
 * 30x30x10 or 30x30x7 axial fan for hotend cooling
 * 1x m2x6 **socket head** screw
 * 2x 6x3mm magnet
