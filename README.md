@@ -18,24 +18,33 @@ And keeping the features from other designs:
 * Vertical motion to attach/detach the toolhead
 * No wires to the shuttle, single cable to each toolhead
 
-# Dragons be here
+# This is a Beta
 
-This is still in development/testing, there are no instructions, only a few extruders/hotends are supported.
+This is still in testing, instructions are being worked on, only a few extruders/hotends are supported.
+
 See [TapChanger](https://github.com/viesturz/tapchanger) for my docking/wiring setup.
+
+See [Klipper-Toolchanger](https://github.com/viesturz/klipper-toolchanger/) for klipper firmware, [example config](https://github.com/viesturz/klipper-toolchanger/tree/main/examples/probe%20on%20T0).
 
 ### Roadmap
 
 Some of next directions this is going, in no particular order
 
+* [WIP] CPAP support
 * Get to 1000+ toolcahanges without fail
-* CPAP support
 * Beacon probe support
+
+### Contributing
+
+Please file bugs and pull requests. My free time is quite limited, so will answer irregularly.
+[Voron Toolchangers Discord](https://discord.com/invite/xmDWrYGwVJ) has lots of toolchanger users.
+Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7kX5nUJDT31KPcYAykZ2nuPKu_lhjn).
 
 # Supported hotends
 
 * Revo Voron
 * Dragon or Dragon High flow
-* Rapido
+* Rapido HF (not the UHF)
 
 # Supported extruders
 
@@ -51,6 +60,12 @@ Some of next directions this is going, in no particular order
 
 # BOM
 
+**Common consumables**
+
+* M3 screws, button head preferrably, 8mm and some other sizes
+* M3x5x4 heatset inserts (voron spec)
+* superglue, small tip tube, low viscosity
+
 **Shuttle**
 
 * 2x 4x12mm rounded end steel pins
@@ -62,13 +77,17 @@ Some of next directions this is going, in no particular order
 
 **Shuttle CPAP**
 
-* Coming up
+* a CPAP fan
+* a 15mm diameter tube
+* a 3x6x2.5mm bearing (3x6x3 works too)
+* a 2gram micro servo
+* some servo wire
 
 **Toolhead**
 
 * A supported extruder, toolhead, toolboard
 * 1x 4mm x12mm round end steel pins
-* 2x 4x6x6 mm bushing
+* 2x 4x6x6 mm bushing; preferrably the hybrid bushings for smoother slide
 * a Omron D2F-F limit switch or compatible
 * 30x30x10 or 30x30x7 axial fan for hotend cooling
 * 1x m2x6 **socket head** screw
@@ -78,13 +97,25 @@ Some of next directions this is going, in no particular order
 
 **Dock**
 
-Depends on the dock mounting method, coming up.
+* 30 mm of 7x0.1mm springsteel, salvageable from 1m tape measure.
+* High temp silicone for the nozzle pad
 
 # Assembly instructions
 
 Coming up
 
 # Revision log
+
+## 1.0 - Fingers crossed
+
+The first one that is ready to be beta tested. **Not compatible with previous ones** the shuttle interface has changed.
+
+Added: 
+* Rigid mount dock initial version
+* CPAP initial version
+
+Small refinements across the board
+
 
 ## 0.9 - Small improvements
 
