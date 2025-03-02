@@ -80,7 +80,7 @@ Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7
 * a CPAP fan
 * a 15mm diameter tube
 * a 3x6x2.5mm bearing (3x6x3 works too)
-* a 2gram micro servo
+* a 2gram micro servo, DSPOWER has worked well for me
 * some servo wire
 
 **Toolhead**
