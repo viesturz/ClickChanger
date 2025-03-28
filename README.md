@@ -30,9 +30,8 @@ See [Klipper-Toolchanger](https://github.com/viesturz/klipper-toolchanger/) for 
 
 Some of next directions this is going, in no particular order
 
-* [WIP] CPAP support
+* Documentation documentation documentation
 * Get to 1000+ toolcahanges without fail
-* Beacon probe support
 
 ### Contributing
 
@@ -78,9 +77,10 @@ Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7
 **Shuttle CPAP**
 
 * a CPAP fan
-* a 15mm diameter tube
+* ~1m 15mm diameter tube
 * a 3x6x2.5mm bearing (3x6x3 works too)
 * a 2gram micro servo, DSPOWER has worked well for me
+* 2 m2x6 screws
 * some servo wire
 
 **Toolhead**
@@ -91,20 +91,28 @@ Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7
 * a Omron D2F-F limit switch or compatible
 * 30x30x10 or 30x30x7 axial fan for hotend cooling
 * 1x m2x6 **socket head** screw
-* 2x 6x3mm magnet
+* 4x 6x3mm magnets
 * 2x 3.5mm [pogo pin](https://www.aliexpress.com/w/wholesale-pogo-pin-3mm.html), not needed for CPAP
-* Some heastset inserts and m3 screws for toolhead mounting
 
 **Dock**
 
 * 30 mm of 7x0.1mm springsteel, salvageable from 1m tape measure.
 * High temp silicone for the nozzle pad
+* 2x 6x3mm magnets
 
 # Assembly instructions
 
 Coming up
 
 # Revision log
+
+## 1.1 - CPAP edition
+
+* CPAP and eddy current probe support.
+* Docks slightly redesigned, added magnets in docks.
+
+![CPAP](./Images/CPAP.jpg)}
+
 
 ## 1.0 - Fingers crossed
 
