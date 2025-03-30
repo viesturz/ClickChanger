@@ -80,7 +80,7 @@ Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7
 * ~1m 15mm diameter tube
 * a 3x6x2.5mm bearing (3x6x3 works too)
 * a 2gram micro servo, DSPOWER has worked well for me
-* 2 m2x6 screws
+* 2 m2x4 screws
 * some servo wire
 
 **Toolhead**
@@ -102,7 +102,9 @@ Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7
 
 # Assembly instructions
 
-Coming up
+* [CPAP valve](CPAP.md)
+
+More coming up
 
 # Revision log
 
