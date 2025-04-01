@@ -45,6 +45,11 @@ Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7
 * Dragon or Dragon High flow
 * Rapido HF (not the UHF)
 
+# Supported bed probes
+ * Revo PZ on T0
+ * Beacon probe (low profile)
+ * Cartographer probe (low profile)
+
 # Supported extruders
 
 * HGX Large Gears - personal favorite of mine, great for flexibles; lowest weight and integrated strain relief.
@@ -107,6 +112,8 @@ Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7
 More coming up
 
 # Revision log
+
+## 1.1.1 - Small tweaks and cleanups.
 
 ## 1.1 - CPAP edition
 
