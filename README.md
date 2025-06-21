@@ -18,20 +18,12 @@ And keeping the features from other designs:
 * Vertical motion to attach/detach the toolhead
 * No wires to the shuttle, single cable to each toolhead
 
-# This is a Beta
-
-This is still in testing, instructions are being worked on, only a few extruders/hotends are supported.
-
-See [TapChanger](https://github.com/viesturz/tapchanger) for my docking/wiring setup.
-
-See [Klipper-Toolchanger](https://github.com/viesturz/klipper-toolchanger/) for klipper firmware, [example config](https://github.com/viesturz/klipper-toolchanger/tree/main/examples/probe%20on%20T0).
 
 ### Roadmap
 
 Some of next directions this is going, in no particular order
 
 * Documentation documentation documentation
-* Get to 1000+ toolcahanges without fail
 
 ### Contributing
 
@@ -72,15 +64,6 @@ Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7
 
 **Shuttle**
 
-* 2x 4x12mm rounded end steel pins
-* 1x 4x6x6mm bushing; preferrably the hybrid bushings for smoother slide
-* 1x 3x8mm steel pin
-* 1x 3x6x2.5mm bearing (3x6x3 works too)
-* 1x 4010 centrifugal fan; 15000 rpm recommended since you are running a single fan.
-* 2x 6x3mm magnet
-
-**Shuttle CPAP**
-
 * a CPAP fan
 * ~1m 15mm diameter tube
 * a 3x6x2.5mm bearing (3x6x3 works too)
@@ -91,27 +74,40 @@ Also check out the [Youtube channel](https://www.youtube.com/playlist?list=PLqU7
 **Toolhead**
 
 * A supported extruder, toolhead, toolboard
-* 1x 4mm x12mm round end steel pins
+* 1x 4mm x12mm round end steel pin
 * 2x 4x6x6 mm bushing; preferrably the hybrid bushings for smoother slide
-* a Omron D2F-F limit switch or compatible
+* a Kailh Micro switch or compatible 3mm tall momentary switch
 * 30x30x10 or 30x30x7 axial fan for hotend cooling
 * 1x m2x6 **socket head** screw
-* 4x 6x3mm magnets
-* 2x 3.5mm [pogo pin](https://www.aliexpress.com/w/wholesale-pogo-pin-3mm.html), not needed for CPAP
+* 2x 6x3mm magnets
 
 **Dock**
 
 * 30 mm of 7x0.1mm springsteel, salvageable from 1m tape measure.
 * High temp silicone for the nozzle pad
-* 2x 6x3mm magnets
 
 # Assembly instructions
 
 * [CPAP valve](CPAP.md)
+* See [TapChanger](https://github.com/viesturz/tapchanger) for my docking/wiring setup.
+* See [Klipper-Toolchanger](https://github.com/viesturz/klipper-toolchanger/) for klipper firmware, [example config](https://github.com/viesturz/klipper-toolchanger/tree/main/examples/probe%20on%20T0).
 
 More coming up
 
 # Revision log
+
+## 2.0 - CPAP is mandatory now.
+
+Not compatible with previous versions, you will need to reprint everything, except docks and need a new microswitch.
+
+* Only CPAP supported, the airflow is just so much better.
+* More rigid shuttle, going from 6 to 8 mm width, extra side walls.
+* Using a slimmer 3mm tall microswitches for tool detection
+* Some supports modelled
+* Remodelled PTFE tube connector
+* Better toolboard cages
+* Best part is no part - no more retaining clips
+* Tensioning screw position adjusted for slightly less click and more tension
 
 ## 1.1.1 - Small tweaks and cleanups.
 
