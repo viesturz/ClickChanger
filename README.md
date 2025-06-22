@@ -5,6 +5,8 @@ Inspired by [Tapchanger](https://github.com/viesturz/tapchanger) and [Stealthcha
 
 ![Preview](./Images/Main.jpg)
 
+![Preview](./Images/ShuttleCPAP.jpg)
+
 ## How is this different?
 
 ClickChanger is a yet another vertically attached design, but building on previous experiences, but here are some design directions it focuses on:
