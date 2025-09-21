@@ -10,15 +10,16 @@ Inspired by [Tapchanger](https://github.com/viesturz/tapchanger) and [Stealthcha
 ## How is this different?
 
 ClickChanger is a yet another vertically attached design, but building on previous experiences, but here are some design directions it focuses on:
-* A hotend based nozzle probe, like Revo PZ, not requiring the smooth vertical movement by the docking mechanism
-* Rigid connection between the Y rail and hotend's heatsink, minimizing thermal expansion differences between toolheads
-* A Shared part cooling fan integrated in the shuttle, connected via Pogo pins
+* Eddy Current Bed Probe Support which doesn't require smooth vertical movement by the docking mechanism
+* Rigid connection between the X rail and hotend's heatsink, minimizing thermal expansion differences between toolheads
+* CPAP-fan-based part cooling integrated with the shuttle
+* Servo-based part cooling flow control - part cooling can be turned on and off very rapidly 
 * A "naked" toolhead, allowing for better cooling and overall less weight.
 
 And keeping the features from other designs:
 
 * Vertical motion to attach/detach the toolhead
-* No wires to the shuttle, single cable to each toolhead
+* Single cable to each toolhead
 
 
 ### Roadmap
